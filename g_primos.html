@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Primos</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="Bootstrap%20Madrid/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="Bootstrap%20Madrid/css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="Bootstrap%20Madrid/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <script src="myPrimos.js"></script>
+</head>
+<body class="bg-success">
+     <div class="col-lg-12 text-center lead">
+         <h1>Página para calcular los Números Primos en un Intervalo</h1>
+         <h3>Especifica rango de valores</h3>
+         <h3>Minimo Valor:</h3><input id="min" onkeypress="handleKeyPress(event)"><br>
+         <h3>Maximo Valor:</h3><input id="max" onkeypress="handleKeyPress(event)"><br><br>
+             <input class="btn btn-warning" type="button" onclick="myPrimos()" value="Go">
+         <p id="demo"></p>
+     </div>
+</body>
+</html>

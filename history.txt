@@ -1,0 +1,18 @@
+6/2/17
+  a_prueba.html
+13/2/17
+  b_ejercicio1.html
+  styles1.css
+20/2/17
+  c_gridsystem.html
+  styles2.css
+  Carpeta Bootstrap Madrid
+27/2/17
+  Carpeta Bootstrap Madrid /*terminado de meter hipervinculos*/
+  d_introjs.html
+  e_input.html
+  f_consolelog.html
+  Carpeta primos
+6/3/17
+  g_primos.html  eliminada la carpeta y pasado el script a js. Al dar enter(return) ya corre.
+  myPrimos.js  script para calcular los primos. Optimizado para que divida entre los primos anteriores.
