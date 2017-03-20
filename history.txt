@@ -16,3 +16,6 @@
 6/3/17
   g_primos.html  eliminada la carpeta y pasado el script a js. Al dar enter(return) ya corre.
   myPrimos.js  script para calcular los primos. Optimizado para que divida entre los primos anteriores.
+20/3/17
+  h_ejerciciosvg.html  completado lo de clase para que el circulo no se salga de sus márgenes. A partir de este archivo he decidido cambiar el source de bootstrap.
+  h_ejerciciosvg2.html  ya funciona con la función seno para que el desplazamiento en x sea periódico

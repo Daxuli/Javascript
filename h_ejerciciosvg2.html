@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG2</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="Bootstrap%20Madrid/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="Bootstrap%20Madrid/css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="Bootstrap%20Madrid/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <script>
+        function myPosition() {
+            var myCircle = document.getElementById("path22");
+            var repeticiones = 0;
+            var posx = 0;
+            /*var posy = 200;*/
+            var time = 0;
+            var intervalo = setInterval(function () {
+                time = time + 1/1000;
+                posx = posx + 100*Math.sin(time);
+                /*posy = posy + .5;*/
+                myCircle.setAttribute("cx", parseInt(posx));
+                /*myCircle.setAttribute("cy", parseInt(posy));*/
+            }, 16)
+        }
+
+    </script>
+</head>
+<body onload="myPosition()" class="bg-info">
+<div class="container">
+    <svg
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000/svg"
+        id="svg8"
+        version="1.1"
+        viewBox="0 0 105.83333 105.83334"
+        height="400"
+        width="400">
+    <defs
+            id="defs2" />
+    <metadata
+            id="metadata5">
+        <rdf:RDF>
+            <cc:Work
+                    rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                        rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title></dc:title>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <g
+            transform="translate(0,-191.16665)"
+            id="layer1">
+        <circle
+                transform="rotate(-1.2622479)"
+                r="10"
+                cy="200"
+                cx="0"
+                id="path22"
+                style="fill:#ff8c3f;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+</svg>
+</div>
+</body>
+</html>
+

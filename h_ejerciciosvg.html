@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG1</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <script>
+        function myPosition() {
+            var myCircle = document.getElementById("path22");
+            var repeticiones = 0;
+            var posx = 10;
+            var posy = 205;
+            var intervalo = setInterval(function () {
+                posx = posx + .5;
+                posy = posy + .5;
+                myCircle.setAttribute("cx", parseInt(posx));
+                myCircle.setAttribute("cy", parseInt(posy));
+
+                repeticiones++;
+                if (repeticiones == 150){
+                    clearInterval(intervalo);}
+            }, 16)
+        }
+
+    </script>
+</head>
+<body onload="myPosition()" class="bg-info">
+<div class="col-lg-12 text-center lead">
+    <h2>Ejercicio SVG V1</h2>
+    <p>Uso de SVG, "onload" y "setInterval"</p>
+</div>
+
+<div class="container col-lg-12 text-center">
+    <svg
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000/svg"
+        id="svg8"
+        version="1.1"
+        viewBox="0 0 105.83333 105.83334"
+        height="400"
+        width="500">
+    <defs
+            id="defs2" />
+    <metadata
+            id="metadata5">
+        <rdf:RDF>
+            <cc:Work
+                    rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                        rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title></dc:title>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <g
+            transform="translate(0,-191.16665)"
+            id="layer1">
+        <circle
+                transform="rotate(-1.2622479)"
+                r="10"
+                cy="205"
+                cx="10"
+                id="path22"
+                style="fill:#ff8c3f;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+</svg
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:svg="http://www.w3.org/2000/svg">
+</div>
+</body>
+
+</html>
+
