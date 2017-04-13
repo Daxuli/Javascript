@@ -19,3 +19,16 @@
 20/3/17
   h_ejerciciosvg.html  completado lo de clase para que el circulo no se salga de sus márgenes. A partir de este archivo he decidido cambiar el source de bootstrap.
   h_ejerciciosvg2.html  ya funciona con la función seno para que el desplazamiento en x sea periódico
+27/3/17
+  node.txt  script para ser llamado del CMD con: node WebstormProjects\Javascript\Javascript-GitHub\node.txt
+  i_writeAsync.js  escribe en node_numbers.txt de forma "desordenada" los numeros de 0 a 999. Si ya existia el archivo, vacia el contenido que tenia
+  i_writeSync.js  lo mismo pero en node_numbers.txt de forma ordenada. Como consecuencia, tarda mas. Ojo, las funciones empleadas son diferentes
+2/4/17
+  Carpeta Pong  modificado archivos para que funcione despues de cambiar p.e. las alturas. Tambien hecho modo para 1 jugador
+3/4/17
+  Carpeta webapp https://moodle.upm.es/titulaciones/oficiales/pluginfile.php/1262135/mod_resource/content/1/basic-express-server.html
+  Carpeta websocketapp https://moodle.upm.es/titulaciones/oficiales/pluginfile.php/1262233/mod_resource/content/1/basic-websocket-app.html 
+		       en el html solo se ve en modo desarrollador lo que uno manda
+  Ojo, no he subido las carpetas de node-modules
+13/4/17
+  Carpeta wschat chat de ws que funciona creado a partir del codigo de martinsik y los comentarios de kalxasath
